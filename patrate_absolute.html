@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+  
+    <title>CSS Absolute Position</title>
+    <style>
+    
+        div {
+            width: 80px;
+            height: 85px;
+            color: white;
+            padding-top: 15px;
+            padding-left: 20px;
+            box-shadow: 0 0 2px 1px #333333;
+            position: absolute;
+        }
+        .d-1 {
+            background-color: brown;
+            bottom: 0px;
+            left:0px;
+            z-index: -1;
+        }
+        .d-2 {
+            background-color: chocolate;
+            bottom: 50px;
+            left: 50px;
+            z-index: -1;
+        }
+        .d-3 {
+            background-color: darkgoldenrod;
+            bottom: 100px;
+            left: 100px;
+            z-index: -1;
+        }
+      
+    </style>
+</head>
+<body>
+   <div class="d-1">1</div>
+   <div class="d-2">2</div>
+   <div class="d-3">3</div> 
+</body>
+</html>
